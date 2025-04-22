@@ -11,7 +11,7 @@ const MovieThumb = ({ image, movieId, clickable }) => {
                     <img src={image} loading="lazy" className="clickable" alt="movieid" />
                 </Link>
             ) : (
-                    <img loading="lazy" loading="lazy" src={image} alt="movieid" />
+                    <img loading="lazy" src={image} alt="movieid" />
                 )
             }
         </StyledMovieThumb>

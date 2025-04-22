@@ -1,8 +1,10 @@
 import React from 'react';
+//router librabry used to manage routing in the application.
 import {Router} from '@reach/router';
 import Header from './elements/Header';
 import Home from './Home';
 import NotFound from './NotFound';
+// riutes handled by the movie component to fetch and displaydetailed info about movie base on id passed in url
 import Movie from './Movie';
 
 import {createGlobalStyle} from 'styled-components';

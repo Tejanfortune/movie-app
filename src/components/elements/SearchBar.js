@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import {StyledSearchBar, StyledSearchBarContent} from '../styles/StyledSearchBar';
 
-const SearchBar = ({searchMovies}) =>{
+const SearchBar = ({searchMovies,}) =>{
     const [inputValue,setInputValue] = useState('');
    const doChangeInput = (e) =>{
         const {value} = e.target;
